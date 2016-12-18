@@ -76,10 +76,10 @@ public class PlayGame extends AppCompatActivity implements View.OnClickListener 
         row4col4 = (ImageView) findViewById(R.id.row4col4);
 
         //Array Set Of Images
-        imgId = new int[]{R.drawable.icon1,R.drawable.icon2,R.drawable.icon3,R.drawable.icon4,
-                R.drawable.icon5,R.drawable.icon6,R.drawable.icon7,R.drawable.icon8};
-//        imgId = new int[]{R.drawable.one, R.drawable.three, R.drawable.two, R.drawable.five,
-//                R.drawable.four, R.drawable.seven, R.drawable.six, R.drawable.zero};
+//        imgId = new int[]{R.drawable.icon1,R.drawable.icon2,R.drawable.icon3,R.drawable.icon4,
+//                R.drawable.icon5,R.drawable.icon6,R.drawable.icon7,R.drawable.icon8};
+        imgId = new int[]{R.drawable.one, R.drawable.three, R.drawable.two, R.drawable.five,
+                R.drawable.four, R.drawable.seven, R.drawable.six, R.drawable.zero};
         //Array Set of ImageViews
         imageViewArray = new ImageView[]{row1col1, row1col2, row1col3, row1col4, row2col1,
                 row2col2, row2col3, row2col4, row3col1, row3col2, row3col3, row3col4,
